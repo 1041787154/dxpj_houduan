@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body,html,.myBody{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+div{
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+.title {
+    font-size: 0.4rem;
+  }
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 1;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+  padding-top:9.2%;
+}
+.contentBox_1 .message  p span:nth-of-type(1){
+    word-break: keep-all;
+}
+.bottom-button{
+    top:70%;
+    
+  width: 60%;
+  margin:auto;
+  left:0;
+  right:0;
+    position: absolute;
+    word-break: keep-all;
+}
+.bg h1,
+h2 {
+    z-index:10;
+ 
+  color: rgb(255, 223, 44);
+}
+.bg h1{
+    top:6%;
+   font-size: 0.6rem!important;
+    
+}
+.bottom-button .button-1{
+    display: block;
+    margin: auto;
+    border:2px solid #fff;
+    color:orange;
+    background-color: orangered;
+    height:0.8rem;
+    box-sizing: border-box;
+    line-height:0.8rem;
+    padding:0px 0.8rem;
+    text-decoration: none;
+    font-size: 0.4rem;
+    font-weight: 600;
+    font-family:"微软雅黑";
+}
+
+.bottom-button > div {
+   
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .title{
+      color:rgb(255, 230, 0);
+      position: relative;
+
+  }
+.title h1{
+    font-size: 0.6rem;
+}
+.contentBox{
+    float: left;
+   
+}
+.mainContent{
+    width:100%;
+    height:auto;
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+.mainContent:after{
+    display: block;
+    content:"";
+    clear: both;
+}

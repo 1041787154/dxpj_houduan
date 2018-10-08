@@ -1,0 +1,6 @@
+
+driver = com.microsoft.sqlserver.jdbc.SQLServerDriver
+jdbcUrl = jdbc:sqlserver://10.2.111.67:1433;DatabaseName=DB_PartySpritCheck_Test
+user = sa
+password = wangjia5390
+devMode = true
